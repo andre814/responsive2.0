@@ -1,0 +1,197 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+
+.carousel-item {
+	top: 30px;
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background-color: lightgrey;
+}
+
+.carousel-indicators li.active{
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  background-color: inherit;
+}
+
+#indicatorOne{
+  background-color: #F6511D;
+}
+
+.seeMoreLib{
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: white;
+  color: #F6511D;
+}
+
+#indicatorTwo{
+  background-color: #00CFFF;
+}
+
+#indicatorThree{
+  background-color: #FFB400;
+}
+
+#indicatorFour{
+  background-color: #7FB800;
+}
+
+#indicatorFive{
+  background-color: #0D2C54;
+}
+
+.navbar{
+	height: 100px;
+	background-color: white !important;
+}
+
+.navbar-brand{
+	font-size: 200%;
+	letter-spacing: 6px;
+}
+
+.navbar-brand img{
+  position: relative;
+  margin-right: 10px;
+  top: -2px;
+}
+
+.navbar-brand, .nav-link{
+	color: black !important;
+
+}
+
+.nav-link{
+  margin-right: 20px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	top: 30px;
+}
+
+#slideOne{
+  width: 350px;
+  height: 200px;
+  top: 265px;
+  left: 15%;
+  z-index: 1000;
+
+}
+
+#slideOne h3{
+  font-weight: 700;
+  letter-spacing: 3px;
+
+}
+
+#slideTwo{
+  width: 350px;
+  height: 200px;
+  top: 295px;
+  left: 57%;
+  z-index: 1000;
+
+}
+
+#slideTwo h3{
+  font-weight: 700;
+  letter-spacing: 3px;
+
+}
+
+#slideThree{
+  width: 350px;
+  height: 200px;
+  top: 295px;
+  left: 63%;
+  z-index: 1000;
+
+}
+
+#slideThree h3{
+  font-weight: 700;
+  letter-spacing: 3px;
+
+}
+
+.abtMePics{
+  height: 400px;
+}
+
+.awayFromTop{
+  position: relative;
+  top: 100px;
+}
+
+#psMsg{
+  background-color: red !important;
+  position: absolute ;
+  top: 70%;
+}
+
+.contactIcons img{
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+
+.desktopAndPhone{
+  height: 650px;
+}
+
+.phone{
+  margin-top: 50px;
+  height: 450px;
+  margin-left: 40px;
+}
+
+.libDesktop{
+  height: 550px;
+
+}
+
+.descriptionLib{
+  margin-top: 80px;
+
+}
+
+.descriptionLib h3{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F6511D;
+
+}
+
+.img2{
+  position: relative;
+  top: 50px;
+}
+
+#oldLib{
+  height: 250px;
+}
+
+#libCaption{
+  margin-left: 100px;
+}
